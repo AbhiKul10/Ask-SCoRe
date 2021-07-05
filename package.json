@@ -48,7 +48,7 @@
   "jest": {
     "preset": "react-native",
     "transformIgnorePatterns": [
-      "node_modules/(?!@react-native|react-native|react-navigation|AsyncStorage)"
+      "node_modules/(?!@react-native|react-native|AsyncStorage)"
     ],
     "setupFiles": [
       "./jestSetup.js"
