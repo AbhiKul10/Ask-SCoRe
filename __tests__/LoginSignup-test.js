@@ -1,15 +1,11 @@
-/**
- * @format
- * @lint-ignore-every XPLATJSCOPYRIGHT1
- */
 import React from "react";
-import App from "../src/App";
+import LoginSignupScreen from "../src/screens/LoginSignupScreen/LoginSignupScreen";
 
 import renderer from "react-test-renderer";
 
 jest.useFakeTimers();
 
 test("renders Question Screen correctly", () => {
-  const tree = renderer.create(<App />).toJSON();
+  const tree = renderer.create(<LoginSignupScreen />).toJSON();
   expect(tree).toMatchSnapshot();
 });
