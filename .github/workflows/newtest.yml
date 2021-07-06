@@ -15,7 +15,6 @@ jobs:
         run: |
           npm run lint
       - name: Snapshot Testing
-        working-directory: ./
         env:
           REACT_APP_FIREBASE_API_KEY: ${{ secrets.REACT_APP_FIREBASE_API_KEY }}
           REACT_APP_FIREBASE_PROJECT_ID: ${{ secrets.REACT_APP_FIREBASE_PROJECT_ID }}
