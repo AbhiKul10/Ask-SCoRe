@@ -12,7 +12,7 @@ What Open Source Organisations aims is for more productivity, which can be achie
 
 Ask SCoRe app is the community app, which will help organisation in Collaboration, teamwork, promotion, cooperation with their members(Mentors, Mentees, Students). 
 Ask SCoRe application will be implemented using React-Native. This app will also use Go-Social Framework in order to create and use the components.
-This app aims to resolve queries by anyone in the organisation and let members communicate in the Forums/Channels.
+This app aims to resolve queries by anyone in the organisation and let members communicate in the Forums/Channels..
 
 **Table of Contents**
 
