@@ -8,7 +8,7 @@
 
 ## About
 
-What Open Source Organisations aims is for more productivity, which can be achieved when the organisation's members promote, collaborates, co-operates with each other. And hence Ask-SCoRe application helps in achieving the motive.
+What Open Source Organisations aims is for more productivity, which can be achieved when the organisation's members promote, collaborates, co-operates with each other. And hence Ask-SCoRe application helps in achieving the motive..
 
 Ask SCoRe app is the community app, which will help organisation in Collaboration, teamwork, promotion, cooperation with their members(Mentors, Mentees, Students). 
 Ask SCoRe application will be implemented using React-Native. This app will also use Go-Social Framework in order to create and use the components.
