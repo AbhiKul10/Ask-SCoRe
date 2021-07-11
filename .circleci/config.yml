@@ -23,9 +23,9 @@ jobs:
           command: npm run lint
       - run:
           name: Snapshot tests
-          command: echo $REACT_APP_FIREBASE_API_KEY
-          command: echo $REACT_APP_FIREBASE_PROJECT_ID
-          command: echo $REACT_APP_FIREBASE_MESSAGING_SENDER_ID
+          command: echo ${REACT_APP_FIREBASE_API_KEY}
+          command: echo ${REACT_APP_FIREBASE_PROJECT_ID}
+          command: echo ${REACT_APP_FIREBASE_MESSAGING_SENDER_ID}
           command: echo ${REACT_APP_FIREBASE_APP_ID}
           command: echo ${REACT_APP_FIREBASE_MEASUREMENTID}
           command: echo ${REACT_APP_FIREBASE_FCM_VAPID_KEY}
