@@ -24,12 +24,6 @@ jobs:
       - run:
           name: Snapshot tests
           command: echo ${REACT_APP_FIREBASE_API_KEY}
-          command: echo ${REACT_APP_FIREBASE_PROJECT_ID}
-          command: echo ${REACT_APP_FIREBASE_MESSAGING_SENDER_ID}
-          command: echo ${REACT_APP_FIREBASE_APP_ID}
-          command: echo ${REACT_APP_FIREBASE_MEASUREMENTID}
-          command: echo ${REACT_APP_FIREBASE_FCM_VAPID_KEY}
-          command: echo ${REACT_APP_AUTH_DOMAIN}
           env:
             REACT_APP_FIREBASE_API_KEY: $REACT_APP_FIREBASE_API_KEY
             REACT_APP_FIREBASE_PROJECT_ID: $REACT_APP_FIREBASE_PROJECT_ID
