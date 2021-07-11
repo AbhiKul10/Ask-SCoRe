@@ -26,7 +26,7 @@ jobs:
           command: echo ${REACT_APP_FIREBASE_API_KEY}
       - run:
           name: Double check credentials
-          command: echo $REACT_APP_FIREBASE_API_KEY
+          command: echo $REACT_APP_FIREBASE_MEASUREMENTID
       - run:
           name: Snapshot tests
           env:
