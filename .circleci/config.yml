@@ -21,3 +21,6 @@ jobs:
       - run:
           name: Lint tests
           command: npm run lint
+      - run:
+          name: Snapshot tests
+          command: npm run test
